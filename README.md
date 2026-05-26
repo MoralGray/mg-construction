@@ -35,10 +35,6 @@ Services:
 - **Backend** → http://localhost:8001
 - **PostgreSQL** → localhost:5432
 
-On first start, the database is automatically seeded with 6 roads, 10 work
-types, and 1000 mock work log entries. Subsequent restarts skip seeding
-(checks if roads exist — idempotent).
-
 Build modes:
 - **Fast** (`docker compose build`) — uses npm cache mount, ~20s on cache hit
 - **Clean** (`docker compose build --no-cache && docker builder prune --filter type=exec.cachemount -f`) — full rebuild, ~8 min
@@ -53,3 +49,23 @@ Docker build, and test plan.
 
 [`docs/`](./docs/) — guides for creating projects, libraries, and integrating
 the UI library.
+
+## Mock Data
+
+On first start, the database seeds automatically — idempotent, skips if roads
+already exist:
+
+- **6 roads** — named after real Moscow highways
+- **10 work types** — concrete, asphalt, marking, barriers, etc.
+- **1000 work log entries** — across 2024–2025 with realistic volumes and executors
+
+Seed scripts: [`prisma/seed.ts`](./apps/mg-construction-journal-backend/prisma/seed.ts)
+and [`prisma/seed-data.ts`](./apps/mg-construction-journal-backend/prisma/seed-data.ts).
+
+### Mise commands
+
+| Action | Run |
+|---|---|
+| Add roads & work types | `mise run seed` |
+| Add 1000 mock entries | `mise run seed-mock` |
+| Remove all entries | `mise run seed-clear` |
