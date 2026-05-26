@@ -3,7 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "prisma db push && tsx watch src/main.ts",
+        "dev": "prisma generate && prisma db push && tsx watch src/main.ts",
         "start": "tsx src/main.ts",
         "seed": "tsx src/seed/seed.ts",
         "seed-mock": "tsx src/seed/mock-entries.ts",
