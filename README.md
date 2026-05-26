@@ -14,15 +14,33 @@ entry detail modal with cross-road task grouping (topicId).
 
 ### Local development (SQLite)
 
-```bash
-npm install
-npx nx run mg-construction-journal-backend:dev
-npx nx run mg-construction-journal:dev
-```
-or
-```bash
-mise run dev-all
-```
+First time setup:
+
+1. Create a `.env` file in `apps/mg-construction-journal-backend/`:
+   ```bash
+   echo 'DATABASE_URL=file:./prisma/dev.db
+   DB_PROVIDER=sqlite' > apps/mg-construction-journal-backend/.env
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start both apps (generates Prisma client, pushes schema, starts backend on :8001 and frontend on :3002):
+   ```bash
+   mise run dev-all
+   ```
+
+4. In a separate terminal, seed roads, work types, and mock entries (optional):
+   ```bash
+   npx nx run mg-construction-journal-backend:seed
+   npx nx run mg-construction-journal-backend:seed-mock
+   ```
+
+The dev script runs `prisma generate && prisma db push && tsx watch src/main.ts` — the Prisma client and database are set up automatically on first start.
+
+To switch to PostgreSQL, edit `apps/mg-construction-journal-backend/.env` and update `schema.prisma` provider to `postgresql`.
 
 ### Docker (PostgreSQL, production-like)
 
