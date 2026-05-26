@@ -8,10 +8,15 @@ interface RoadsStore {
     toggleRoad: (id: string) => void;
 }
 
+const DEFAULT_ROAD_ID = '6';
+
 function loadFromStorage(): string[] {
     try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        return raw ? (JSON.parse(raw) as string[]) : [];
+        if (raw === null) {
+            return [DEFAULT_ROAD_ID];
+        }
+        return JSON.parse(raw) as string[];
     } catch {
         return [];
     }

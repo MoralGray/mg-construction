@@ -16,7 +16,7 @@ RUN --mount=type=cache,target=/root/.npm \
 
 RUN sed -i 's/provider = "sqlite"/provider = "postgresql"/' apps/mg-construction-journal-backend/prisma/schema.prisma
 
-RUN ./apps/mg-construction-journal-backend/node_modules/.bin/prisma generate --schema=apps/mg-construction-journal-backend/prisma/schema.prisma
+RUN npx prisma generate --schema=apps/mg-construction-journal-backend/prisma/schema.prisma
 
 FROM node:22.14.0-alpine AS runner
 
@@ -34,6 +34,6 @@ ENV TSX_TSCONFIG_PATH=tsconfig.docker.json
 EXPOSE 8001
 
 CMD cd apps/mg-construction-journal-backend && \
-    ./node_modules/.bin/prisma db push --accept-data-loss && \
+    npx prisma db push --accept-data-loss && \
     npx tsx src/seed/seed-docker.ts && \
     npx tsx src/main.ts

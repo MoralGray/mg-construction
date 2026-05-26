@@ -14,6 +14,8 @@ services:
             interval: 5s
             timeout: 5s
             retries: 5
+        networks:
+            - mg-construction-net
 
     backend:
         build:
@@ -28,6 +30,8 @@ services:
         depends_on:
             postgres:
                 condition: service_healthy
+        networks:
+            - mg-construction-net
 
     frontend:
         build:
@@ -37,6 +41,15 @@ services:
             - '3002:80'
         depends_on:
             - backend
+        networks:
+            - mg-construction-net
+
+networks:
+    mg-construction-net:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 172.20.0.0/24
 
 volumes:
     postgres_data:
