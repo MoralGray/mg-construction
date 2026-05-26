@@ -16,10 +16,12 @@ scan_and_clean() {
     echo "=== Scanning $name ==="
 
     FOUND=()
-    for dir in apps packages; do
+    for dir in . apps packages; do
         while IFS= read -r d; do
+            # skip root-level . (current dir) — find will return '.' which we ignore
+            [ "$d" = "." ] && continue
             FOUND+=("$d")
-        done < <(find "$dir" -maxdepth 2 -type d -name "$dirname" 2>/dev/null)
+        done < <(find "$dir" -maxdepth 4 -type d -name "$dirname" 2>/dev/null)
     done
 
     if [ -n "$extra" ]; then
@@ -47,10 +49,11 @@ scan_and_clean() {
     done
 
     LEFTOVERS=()
-    for dir in apps packages; do
+    for dir in . apps packages; do
         while IFS= read -r d; do
+            [ "$d" = "." ] && continue
             LEFTOVERS+=("$d")
-        done < <(find "$dir" -maxdepth 2 -type d -name "$dirname" 2>/dev/null)
+        done < <(find "$dir" -maxdepth 4 -type d -name "$dirname" 2>/dev/null)
     done
 
     if [ -n "$extra" ]; then
