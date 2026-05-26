@@ -1,0 +1,68 @@
+{
+    "$schema": "../../node_modules/nx/schemas/nx-schema.json",
+    "name": "mg-construction-journal-backend",
+    "project": {
+        "type": "application"
+    },
+    "sourceRoot": "apps/mg-construction-journal-backend",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run dev",
+                "cwd": "apps/mg-construction-journal-backend"
+            },
+            "forwardAllArgs": true,
+            "continuous": true
+        },
+        "start": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run start",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "seed": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run seed",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "seed-mock": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run seed-mock",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "seed-clear": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run seed-clear",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "db:push": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run db:push",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "db:generate": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run db:generate",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        },
+        "typecheck": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run typecheck",
+                "cwd": "apps/mg-construction-journal-backend"
+            }
+        }
+    }
+}

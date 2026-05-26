@@ -1,0 +1,29 @@
+{
+    "name": "@mg-nx-forge/mg-infinite-view-tanstack",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "scripts": {
+        "build": "tsc -b",
+        "typecheck": "tsc --noEmit",
+        "format": "npx biome format --write .",
+        "lint": "npx biome lint --write .",
+        "check": "npx biome check --write . && npm run typecheck"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "5.100.11",
+        "react-intersection-observer": "10.0.3"
+    },
+    "devDependencies": {
+        "@types/react": "19.2.5",
+        "@types/react-dom": "19.2.3",
+        "react": "19.2.0",
+        "react-dom": "19.2.0",
+        "typescript": "5.9.3"
+    },
+    "peerDependencies": {
+        "react": "19.2.0",
+        "react-dom": "19.2.0"
+    }
+}

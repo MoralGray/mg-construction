@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../dist/packages/mg-ui-shadcn-4",
+        "declarationDir": "../../dist/packages/mg-ui-shadcn-4"
+    }
+}

@@ -1,0 +1,42 @@
+services:
+    postgres:
+        image: postgres:16-alpine
+        environment:
+            POSTGRES_DB: mg-construction-journal
+            POSTGRES_USER: user
+            POSTGRES_PASSWORD: password
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        healthcheck:
+            test: ['CMD-SHELL', 'pg_isready -U user -d mg-construction-journal']
+            interval: 5s
+            timeout: 5s
+            retries: 5
+
+    backend:
+        build:
+            context: .
+            dockerfile: apps/mg-construction-journal-backend/Dockerfile
+        environment:
+            DB_PROVIDER: postgresql
+            DATABASE_URL: postgresql://user:password@postgres:5432/mg-construction-journal?schema=public
+            MG_CONSTRUCTION_JOURNAL_BACKEND_PORT: '8001'
+        ports:
+            - '8001:8001'
+        depends_on:
+            postgres:
+                condition: service_healthy
+
+    frontend:
+        build:
+            context: .
+            dockerfile: apps/mg-construction-journal/Dockerfile
+        ports:
+            - '3002:80'
+        depends_on:
+            - backend
+
+volumes:
+    postgres_data:

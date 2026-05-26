@@ -1,0 +1,926 @@
+[
+    {
+        "id": 1,
+        "title": "Apple Unveils Neural Interface Chip for Consumer Devices",
+        "description": "Apple has unveiled its first neural interface chip, allowing users to control devices with thought alone.",
+        "content": "<p>Apple unveiled the NeuralLink S1 at its annual developer conference. The chip enables direct brain-to-device communication using advanced EEG sensors.</p><p>Early testers report typing at 120 words per minute using only thought. All neural data is processed on-device and never leaves the user control.</p><p>The NeuralLink S1 will debut in the iPhone 18 Pro lineup this fall.</p>",
+        "category": "Technology",
+        "popularity": 14,
+        "date": "2026-01-02"
+    },
+    {
+        "id": 2,
+        "topicId": 1,
+        "title": "Global Internet Outage Traced to Faulty BGP Update",
+        "description": "A widespread internet outage affecting major websites worldwide has been traced to a single misconfigured BGP update.",
+        "content": "<p>A cascading internet outage disrupted services including Google, Meta, and Cloudflare for nearly four hours. The incident originated from a regional ISP in Moldova.</p><p>Industry experts are calling for mandatory BGP security measures including RPKI deployment.</p>",
+        "category": "Technology",
+        "popularity": 174,
+        "date": "2026-01-03"
+    },
+    {
+        "id": 3,
+        "topicId": 1,
+        "title": "OpenAI Announces GPT-6 with Human-Level Reasoning",
+        "description": "OpenAI has released GPT-6, claiming the model achieves human-level reasoning across multiple domains.",
+        "content": "<p>GPT-6 scored in the 99th percentile on standardized tests including the SAT, LSAT, and USMLE. It can solve novel mathematical problems and diagnose rare medical conditions.</p><p>The release has reignited debate about AI safety and regulation worldwide.</p>",
+        "category": "Technology",
+        "popularity": 377,
+        "date": "2026-01-04"
+    },
+    {
+        "id": 4,
+        "topicId": 1,
+        "title": "Quantum Computing Milestone: 1000-Qubit Processor Goes Live",
+        "description": "IBM has activated the world first commercially available 1000-qubit quantum processor.",
+        "content": "<p>The Condor-1000 achieves error rates below 0.1% per gate operation. Early customers include pharmaceutical companies and financial institutions.</p>",
+        "category": "Technology",
+        "popularity": 474,
+        "date": "2026-01-05"
+    },
+    {
+        "id": 5,
+        "topicId": 1,
+        "title": "Tesla Cybertruck 2.0: Full Self-Driving Finally Delivered",
+        "description": "Tesla has begun deliveries of the Cybertruck 2.0 with Level 5 full self-driving capability.",
+        "content": "<p>The vehicle requires no human intervention under any driving conditions. It features a 500-mile range and 30-minute fast charging.</p>",
+        "category": "Technology",
+        "popularity": 529,
+        "date": "2026-01-06"
+    },
+    {
+        "id": 6,
+        "topicId": 1,
+        "title": "Major Data Breach Exposes 3 Billion Records",
+        "description": "Security researchers have uncovered the largest data breach in history with over 3 billion records compromised.",
+        "content": "<p>The exposed data includes names, addresses, and Social Security numbers. Multiple class-action lawsuits have been filed.</p>",
+        "category": "Technology",
+        "popularity": 384,
+        "date": "2026-01-07"
+    },
+    {
+        "id": 7,
+        "topicId": 1,
+        "title": "First Fully Programmable DNA Computer Solves Complex Problems",
+        "description": "Scientists have created the first fully programmable DNA-based computer.",
+        "content": "<p>The DNA computer uses nucleic acid sequences to represent bits. It excels at massively parallel operations.</p>",
+        "category": "Technology",
+        "popularity": 875,
+        "date": "2026-01-08"
+    },
+    {
+        "id": 8,
+        "topicId": 1,
+        "title": "NASA and ESA Announce Joint Mission to Europa",
+        "description": "NASA and ESA have announced a joint mission to Jupiter moon Europa scheduled for 2028.",
+        "content": "<p>The Europa Deep Explorer will deploy a lander, submarine, and orbiters to study the icy moon for signs of life.</p>",
+        "category": "Technology",
+        "popularity": 51,
+        "date": "2026-01-09"
+    },
+    {
+        "id": 9,
+        "topicId": 1,
+        "title": "World First Flying Car Receives FAA Certification",
+        "description": "The FAA has granted type certification to the world first production flying car.",
+        "content": "<p>The AeroMobil 4.0 transitions from driving to flying mode in under three minutes with a starting price of $599,000.</p>",
+        "category": "Technology",
+        "popularity": 641,
+        "date": "2026-01-10"
+    },
+    {
+        "id": 10,
+        "topicId": 1,
+        "title": "Revolutionary Battery Technology Charges EV in 5 Minutes",
+        "description": "A solid-state battery breakthrough allows electric vehicles to charge fully in under five minutes.",
+        "content": "<p>Researchers at the University of Tokyo developed a battery achieving 95% charge in 4 minutes and 30 seconds with double the energy density.</p>",
+        "category": "Technology",
+        "popularity": 745,
+        "date": "2026-01-11"
+    },
+    {
+        "id": 11,
+        "topicId": 1,
+        "title": "Social Media Platform Introduces Verified Human Tags",
+        "description": "A major platform has introduced verified human tags to distinguish real accounts from AI bots.",
+        "content": "<p>The system uses biometric verification and behavior analysis. Up to 40% of social media traffic may already be AI-generated.</p>",
+        "category": "Technology",
+        "popularity": 876,
+        "date": "2026-01-12"
+    },
+    {
+        "id": 12,
+        "title": "Augmented Reality Glasses Reach Mainstream Adoption",
+        "description": "AR glasses sales have surpassed 100 million units marking mainstream adoption.",
+        "content": "<p>Price drops below $299 and compelling use cases in navigation and remote work have driven adoption. Apple, Meta, and Google dominate the market.</p>",
+        "category": "Technology",
+        "popularity": 844,
+        "date": "2026-01-13"
+    },
+    {
+        "id": 13,
+        "title": "New Programming Language Veritas Promises Memory Safety",
+        "description": "Microsoft Research has unveiled Veritas, a systems language with guaranteed memory safety without garbage collection.",
+        "content": "<p>Veritas introduces a region-based memory system. Microsoft has rewritten Windows components in Veritas with 70% fewer memory bugs.</p>",
+        "category": "Technology",
+        "popularity": 940,
+        "date": "2026-01-14"
+    },
+    {
+        "id": 14,
+        "topicId": 1,
+        "title": "Global Chip Shortage Ends as New Fabs Come Online",
+        "description": "The five-year semiconductor shortage has ended with 23 new fabrication plants reaching full capacity.",
+        "content": "<p>Global production capacity has increased by 300% since 2021. Consumer electronics prices are expected to drop 15-20%.</p>",
+        "category": "Technology",
+        "popularity": 33,
+        "date": "2026-01-15"
+    },
+    {
+        "id": 15,
+        "title": "Robotic Surgeon Performs First Fully Autonomous Heart Surgery",
+        "description": "A robotic system has performed a complete heart bypass surgery without any human intervention.",
+        "content": "<p>The autonomous robot successfully completed the procedure in 3 hours and 47 minutes. The patient was discharged after 4 days with no complications.</p>",
+        "category": "Technology",
+        "popularity": 430,
+        "date": "2026-01-16"
+    },
+    {
+        "id": 16,
+        "topicId": 1,
+        "title": "Historic Peace Agreement Signed in Middle East",
+        "description": "Regional leaders have signed a comprehensive peace agreement establishing diplomatic relations and economic cooperation.",
+        "content": "<p>The Geneva Accord establishes diplomatic recognition, economic partnerships, and security cooperation. A joint development fund worth $500 billion has been created.</p>",
+        "category": "World",
+        "popularity": 422,
+        "date": "2026-01-17"
+    },
+    {
+        "id": 17,
+        "topicId": 1,
+        "title": "United Nations Approves Treaty on AI Regulation",
+        "description": "UN member states have adopted a binding international treaty regulating artificial intelligence.",
+        "content": "<p>The treaty creates the International AI Agency in Geneva. Violations can result in trade sanctions and technology export restrictions.</p>",
+        "category": "World",
+        "popularity": 723,
+        "date": "2026-01-18"
+    },
+    {
+        "id": 18,
+        "topicId": 1,
+        "title": "Massive Earthquake Strikes Pacific Ring of Fire",
+        "description": "A 7.8 magnitude earthquake has triggered tsunami warnings across multiple Pacific countries.",
+        "content": "<p>The quake struck 120 kilometers off the coast of Japan. Evacuation orders were issued for coastal communities within a 300-kilometer radius.</p>",
+        "category": "World",
+        "popularity": 17,
+        "date": "2026-01-19"
+    },
+    {
+        "id": 19,
+        "title": "European Union Launches Digital Euro Currency",
+        "description": "The ECB has launched the digital euro across all 27 EU member states.",
+        "content": "<p>Citizens can hold up to 5,000 digital euros with instant fee-free transactions. Privacy features ensure transaction data is only visible to transacting parties.</p>",
+        "category": "World",
+        "popularity": 464,
+        "date": "2026-01-20"
+    },
+    {
+        "id": 20,
+        "topicId": 1,
+        "title": "Arctic Ice Reaches Record Summer Minimum",
+        "description": "Arctic sea ice has reached its lowest summer extent ever recorded at 1.2 million square kilometers.",
+        "content": "<p>The Northwest Passage was completely ice-free for the fourth consecutive year. Scientists warn of accelerating feedback loops.</p>",
+        "category": "World",
+        "popularity": 805,
+        "date": "2026-01-21"
+    },
+    {
+        "id": 21,
+        "title": "Global Population Reaches 9 Billion",
+        "description": "The world population has officially reached 9 billion driven by growth in Africa and South Asia.",
+        "content": "<p>India remains most populous at 1.5 billion followed by China at 1.4 billion. Nigeria expected to become third most populous by 2030.</p>",
+        "category": "World",
+        "popularity": 785,
+        "date": "2026-01-22"
+    },
+    {
+        "id": 22,
+        "title": "High-Speed Rail Network Connects All European Capitals",
+        "description": "The Trans-European Rail Network has been completed connecting all EU capitals with high-speed service.",
+        "content": "<p>The network spans 45,000 kilometers with trains at 400 km/h. Lisbon to Warsaw now takes just 8 hours. The project cost 1.2 trillion over 15 years.</p>",
+        "category": "World",
+        "popularity": 773,
+        "date": "2026-01-23"
+    },
+    {
+        "id": 23,
+        "topicId": 1,
+        "title": "Amazon Rainforest Sees First Net Reforestation",
+        "description": "The Amazon has experienced net reforestation for the first time in over 40 years.",
+        "content": "<p>Brazil committed $50 billion to rainforest protection including enforcement against illegal logging and indigenous land management support.</p>",
+        "category": "World",
+        "popularity": 420,
+        "date": "2026-01-24"
+    },
+    {
+        "id": 24,
+        "topicId": 1,
+        "title": "Refugee Camp in Kenya Becomes Permanent City",
+        "description": "The Kakuma refugee camp has been officially granted city status with 600,000 residents.",
+        "content": "<p>Established in 1991 for Sudanese refugees, Kakuma now has permanent buildings, schools, hospitals, and a thriving economy.</p>",
+        "category": "World",
+        "popularity": 791,
+        "date": "2026-01-25"
+    },
+    {
+        "id": 25,
+        "topicId": 1,
+        "title": "International Space Station Decommissioned After 30 Years",
+        "description": "The ISS has been decommissioned and safely deorbited into the Pacific Ocean.",
+        "content": "<p>During 30 years of operation the ISS hosted 280 astronauts from 23 countries and conducted over 4,000 experiments.</p>",
+        "category": "World",
+        "popularity": 686,
+        "date": "2026-01-26"
+    },
+    {
+        "id": 26,
+        "title": "Global Education Initiative Achieves Universal Literacy",
+        "description": "UNESCO has confirmed a 99.8% global literacy rate achieving universal literacy for the first time.",
+        "content": "<p>Mobile learning platforms and community education programs drove the achievement. The remaining 0.2% are in conflict zones.</p>",
+        "category": "World",
+        "popularity": 741,
+        "date": "2026-01-27"
+    },
+    {
+        "id": 27,
+        "title": "Tropical Disease Eradicated Through Global Vaccination",
+        "description": "Sleeping sickness has been officially declared eradicated the third disease eliminated by human effort.",
+        "content": "<p>The WHO campaign cost $8 billion over 15 years and involved health workers across 36 countries. Polio is next for eradication.</p>",
+        "category": "World",
+        "popularity": 963,
+        "date": "2026-01-28"
+    },
+    {
+        "id": 28,
+        "topicId": 1,
+        "title": "Ocean Cleanup Removes 90% of Great Pacific Garbage Patch",
+        "description": "The Ocean Cleanup Project has removed 90% of plastic from the Great Pacific Garbage Patch.",
+        "content": "<p>Approximately 72,000 metric tons of plastic were recovered. The material is being recycled into construction products and fuel.</p>",
+        "category": "World",
+        "popularity": 464,
+        "date": "2026-02-01"
+    },
+    {
+        "id": 29,
+        "title": "Antarctic Treaty Extended for Another 50 Years",
+        "description": "All 54 signatory nations have extended the Antarctic Treaty preserving the continent for scientific research.",
+        "content": "<p>The extension bans all mineral extraction and strengthens environmental protections with a tourism cap of 50,000 visitors per year.</p>",
+        "category": "World",
+        "popularity": 530,
+        "date": "2026-02-02"
+    },
+    {
+        "id": 30,
+        "topicId": 1,
+        "title": "Desalination Breakthrough Provides Fresh Water",
+        "description": "A graphene-based desalination membrane reduces energy consumption by 80% compared to traditional systems.",
+        "content": "<p>The technology provides fresh water at $0.30 per cubic meter. Plants have been deployed in California, the Middle East, and Australia.</p>",
+        "category": "World",
+        "popularity": 661,
+        "date": "2026-02-03"
+    },
+    {
+        "id": 31,
+        "topicId": 1,
+        "title": "CRISPR Cure for Sickle Cell Disease Approved Worldwide",
+        "description": "The first CRISPR-based cure for sickle cell disease has received regulatory approval in all major markets.",
+        "content": "<p>Clinical trials showed 98% success rate with patients symptom-free for 4 years. The one-time treatment costs $150,000.</p>",
+        "category": "Science",
+        "popularity": 651,
+        "date": "2026-02-04"
+    },
+    {
+        "id": 32,
+        "topicId": 1,
+        "title": "New Organ Discovered: The Interstitium",
+        "description": "Researchers have identified a previously unknown organ that may be the largest in the human body.",
+        "content": "<p>The interstitium is a network of fluid-filled compartments throughout connective tissue that may play a role in immune response and cancer metastasis.</p>",
+        "category": "Science",
+        "popularity": 502,
+        "date": "2026-02-05"
+    },
+    {
+        "id": 33,
+        "title": "Nuclear Fusion Plant Achieves Net Positive Energy for One Year",
+        "description": "The first commercial fusion plant has sustained net positive energy output for 365 days.",
+        "content": "<p>The Sparc-1 reactor generates 500 MW with zero carbon emissions using high-temperature superconducting magnets.</p>",
+        "category": "Science",
+        "popularity": 134,
+        "date": "2026-02-06"
+    },
+    {
+        "id": 34,
+        "topicId": 1,
+        "title": "Lab-Grown Meat Receives Full FDA Approval",
+        "description": "Cultivated meat from animal cells without slaughter has been approved for sale in supermarkets.",
+        "content": "<p>Products include chicken, beef, pork, and fish. Studies show 92% reduction in greenhouse gas emissions and 95% less land use.</p>",
+        "category": "Science",
+        "popularity": 849,
+        "date": "2026-02-07"
+    },
+    {
+        "id": 35,
+        "title": "New Species of Great Ape Discovered in Borneo",
+        "description": "A new species of orangutan has been identified in remote central Borneo.",
+        "content": "<p>The population of 800 individuals was misidentified until genetic analysis revealed distinct differences including unique vocalizations and tool use.</p>",
+        "category": "Science",
+        "popularity": 978,
+        "date": "2026-02-08"
+    },
+    {
+        "id": 36,
+        "title": "Gravitational Wave Observatory Detects Continuous Waves",
+        "description": "LIGO and Virgo have detected continuous gravitational waves from a spinning neutron star.",
+        "content": "<p>The waves come from PSR J0952-0607 and provide information about neutron star interior structure unobtainable through electromagnetic observations.</p>",
+        "category": "Science",
+        "popularity": 407,
+        "date": "2026-02-09"
+    },
+    {
+        "id": 37,
+        "title": "Bioluminescent Trees Could Replace Streetlights",
+        "description": "Genetically modified glowing trees are being tested as sustainable alternatives to electric street lighting.",
+        "content": "<p>A Cambridge UK pilot project has replaced streetlights on a 2-kilometer road with bioluminescent poplar trees. The trees produce light 24/7 at no energy cost.</p>",
+        "category": "Science",
+        "popularity": 599,
+        "date": "2026-02-10"
+    },
+    {
+        "id": 38,
+        "title": "Longevity Drug Extends Human Lifespan by 30%",
+        "description": "A drug targeting cellular aging has extended human lifespan by 30% in clinical trials.",
+        "content": "<p>SenoClear clears senescent cells and reduced age-related diseases in 15,000 participants. Expected to cost $1,000 per year of treatment.</p>",
+        "category": "Science",
+        "popularity": 801,
+        "date": "2026-02-11"
+    },
+    {
+        "id": 39,
+        "title": "World Largest Telescope Captures Exoplanet Atmosphere Images",
+        "description": "The ELT has captured unprecedented detailed images of exoplanet atmospheres revealing potential biosignatures.",
+        "content": "<p>Oxygen and methane were detected simultaneously in a rocky exoplanet atmosphere 42 light-years away, a combination strongly associated with biological activity on Earth.</p>",
+        "category": "Science",
+        "popularity": 711,
+        "date": "2026-02-12"
+    },
+    {
+        "id": 40,
+        "title": "Scientists Create Synthetic Living Cell with Minimal Genome",
+        "description": "Researchers have created a fully synthetic cell with just 473 genes the minimum for self-replication.",
+        "content": "<p>JCVI-syn4.0 serves as a platform for understanding fundamental requirements of life and engineering novel cellular functions.</p>",
+        "category": "Science",
+        "popularity": 523,
+        "date": "2026-02-13"
+    },
+    {
+        "id": 41,
+        "title": "Mars Rover Discovers Ancient Microbial Fossils",
+        "description": "NASA Perseverance rover has found fossilized microbial life in ancient Martian sedimentary rock.",
+        "content": "<p>The structures found in 3.5 billion-year-old sediments closely resemble fossilized microbial mats on Earth. Samples will be returned by 2030.</p>",
+        "category": "Science",
+        "popularity": 383,
+        "date": "2026-02-14"
+    },
+    {
+        "id": 42,
+        "title": "Pig-to-Human Heart Transplant Patient Celebrates 5 Years",
+        "description": "The first successful pig-to-human heart transplant recipient has celebrated five years of perfect health.",
+        "content": "<p>The genetically modified pig heart had 10 gene edits. The patient takes standard immunosuppressive drugs with no major complications.</p>",
+        "category": "Science",
+        "popularity": 998,
+        "date": "2026-02-15"
+    },
+    {
+        "id": 43,
+        "title": "Underground Ocean Discovered 400 Miles Below Surface",
+        "description": "Geologists have discovered a vast underground ocean trapped in ringwoodite containing three times the water of surface oceans.",
+        "content": "<p>The water is bound in crystal structure of the mineral in the mantle transition zone. The discovery helps explain where Earth water came from.</p>",
+        "category": "Science",
+        "popularity": 127,
+        "date": "2026-02-16"
+    },
+    {
+        "id": 44,
+        "title": "Olympics Announce 2032 Host City Selection",
+        "description": "The IOC has selected Istanbul as the host city for the 2032 Summer Olympic Games.",
+        "content": "<p>Istanbul proposed a compact games concept with 80% of venues within a 30-kilometer radius. Projected costs are $15 billion.</p>",
+        "category": "Sports",
+        "popularity": 948,
+        "date": "2026-02-17"
+    },
+    {
+        "id": 45,
+        "title": "World Cup Final Shatters Global Viewership Records",
+        "description": "The FIFA World Cup final drew 3.2 billion viewers the most-watched sporting event in history.",
+        "content": "<p>Streaming accounted for 40% of viewership for the first time. Brazil won 3-2 in extra time.</p>",
+        "category": "Sports",
+        "popularity": 123,
+        "date": "2026-02-18"
+    },
+    {
+        "id": 46,
+        "title": "Major League Baseball Introduces Robot Umpires",
+        "description": "MLB has implemented automated ball-strike calling across all stadiums.",
+        "content": "<p>The ABS system uses high-speed cameras and AI with 99.7% accuracy. Game times decreased by 12 minutes on average.</p>",
+        "category": "Sports",
+        "popularity": 961,
+        "date": "2026-02-19"
+    },
+    {
+        "id": 47,
+        "title": "Formula 1 Announces All-Electric Racing Series",
+        "description": "F1 has announced Formula Eternia a new all-electric racing series starting in 2027.",
+        "content": "<p>Cars will achieve 0-60 mph in 1.5 seconds with 250 mph top speed. Ferrari, Mercedes, and Red Bull have committed teams.</p>",
+        "category": "Sports",
+        "popularity": 3,
+        "date": "2026-02-20"
+    },
+    {
+        "id": 48,
+        "title": "Tennis Star Wins Grand Slam at Age 17",
+        "description": "A 17-year-old prodigy has won all four Grand Slams in a single calendar year.",
+        "content": "<p>Elena Rybakina Jr. completed the calendar-year Grand Slam dropping only two sets across all four tournaments.</p>",
+        "category": "Sports",
+        "popularity": 320,
+        "date": "2026-02-21"
+    },
+    {
+        "id": 49,
+        "title": "NBA Introduces 4-Point Line",
+        "description": "The NBA has approved a 4-point line placed 35 feet from the basket for next season.",
+        "content": "<p>The rule passed with 28 of 30 team owners voting in favor. It is the most significant scoring change since the 3-point line in 1979.</p>",
+        "category": "Sports",
+        "popularity": 645,
+        "date": "2026-02-22"
+    },
+    {
+        "id": 50,
+        "title": "Marathon Runner Breaks 2-Hour Barrier for Third Time",
+        "description": "Kelvin Kiptum has set a new world record of 1:56:42 at the Berlin Marathon.",
+        "content": "<p>Kiptum maintained an average pace of 4:27 per mile for the entire 26.2 miles using advanced Alphafly 4 shoes.</p>",
+        "category": "Sports",
+        "popularity": 389,
+        "date": "2026-02-23"
+    },
+    {
+        "id": 51,
+        "title": "WSL Introduces Equal Prize Money for Men and Women",
+        "description": "The World Surfing League has achieved full prize money equality across all events.",
+        "content": "<p>Both men and women winners receive $500,000. The WSL also committed to equal marketing spend and event scheduling.</p>",
+        "category": "Sports",
+        "popularity": 252,
+        "date": "2026-02-24"
+    },
+    {
+        "id": 52,
+        "title": "Esports Recognized as Official Sport by IOC",
+        "description": "The IOC has officially recognized esports as a legitimate sport.",
+        "content": "<p>Five games designated as Olympic-recognized include League of Legends, Valorant, and Rocket League. Inclusion in Olympic programs possible by 2036.</p>",
+        "category": "Sports",
+        "popularity": 243,
+        "date": "2026-02-25"
+    },
+    {
+        "id": 53,
+        "title": "Cricket Returns to Olympics After 150 Years",
+        "description": "Cricket T20 format has been reinstated as an Olympic sport starting from 2032.",
+        "content": "<p>The sport was last featured in the 1900 Paris Olympics. The T20 format was chosen for its TV-friendly three-hour matches.</p>",
+        "category": "Sports",
+        "popularity": 434,
+        "date": "2026-02-26"
+    },
+    {
+        "id": 54,
+        "title": "Surfing Competition Canceled Due to Extreme Waves",
+        "description": "The WSL Big Wave Championship was canceled as waves reached 68 feet.",
+        "content": "<p>The unprecedented wave heights were caused by a powerful Atlantic storm. Climate change may be increasing extreme wave frequency.</p>",
+        "category": "Sports",
+        "popularity": 882,
+        "date": "2026-02-27"
+    },
+    {
+        "id": 55,
+        "title": "Winter Olympics Add Urban Sports Events",
+        "description": "Parkour and 3x3 ice hockey have been added to the Winter Olympics for 2034.",
+        "content": "<p>The new events aim to attract younger audiences and use existing indoor facilities aligning with IOC sustainability goals.</p>",
+        "category": "Sports",
+        "popularity": 90,
+        "date": "2026-02-28"
+    },
+    {
+        "id": 56,
+        "title": "Women Soccer League Achieves Pay Equity",
+        "description": "The NWSL has ratified a CBA guaranteeing equal pay with the men league.",
+        "content": "<p>The agreement includes maternity leave, childcare support, and health insurance. Sponsorship revenue has increased 300%.</p>",
+        "category": "Sports",
+        "popularity": 247,
+        "date": "2026-03-01"
+    },
+    {
+        "id": 57,
+        "title": "Global Stock Markets Hit All-Time Highs",
+        "description": "Stock markets worldwide have reached record levels with the S&P 500 crossing 8,000 points.",
+        "content": "<p>The MSCI World Index has gained 18% year-to-date driven by technology, healthcare, and renewable energy earnings.</p>",
+        "category": "Business",
+        "popularity": 803,
+        "date": "2026-03-02"
+    },
+    {
+        "id": 58,
+        "title": "Cryptocurrency Market Reaches $10 Trillion",
+        "description": "The global cryptocurrency market has reached $10 trillion driven by institutional adoption.",
+        "content": "<p>Bitcoin reached $250,000 with pension funds and insurance companies allocating 2-5% of portfolios to digital assets.</p>",
+        "category": "Business",
+        "popularity": 895,
+        "date": "2026-03-03"
+    },
+    {
+        "id": 59,
+        "title": "Remote Work Becomes Permanent for 70% of Office Workers",
+        "description": "A McKinsey study shows 70% of office workers are now permanently remote.",
+        "content": "<p>Commercial real estate values in major cities declined 40-60%. Remote work has added $2 trillion annually to the global economy.</p>",
+        "category": "Business",
+        "popularity": 40,
+        "date": "2026-03-04"
+    },
+    {
+        "id": 60,
+        "title": "Space Tourism Reaches $50 Billion Annual Revenue",
+        "description": "The commercial space tourism industry has reached $50 billion in annual revenue.",
+        "content": "<p>Suborbital flights are priced at $250,000 with orbital experiences starting at $2 million. Zero fatalities since 2025.</p>",
+        "category": "Business",
+        "popularity": 218,
+        "date": "2026-03-05"
+    },
+    {
+        "id": 61,
+        "title": "First Fully Automated Factory Opens in Germany",
+        "description": "A factory staffed entirely by robots and AI has opened in Bavaria operating 24/7.",
+        "content": "<p>The Siemens facility produces 500,000 units per month with 0.001% defect rate. It can operate six months without human maintenance.</p>",
+        "category": "Business",
+        "popularity": 923,
+        "date": "2026-03-06"
+    },
+    {
+        "id": 62,
+        "title": "Central Banks Launch Global Digital Currency Network",
+        "description": "Major central banks have launched an interoperable digital currency network.",
+        "content": "<p>The mBridge 2.0 network enables instant cross-border payments with near-zero fees handling 100,000 transactions per second.</p>",
+        "category": "Business",
+        "popularity": 955,
+        "date": "2026-03-07"
+    },
+    {
+        "id": 63,
+        "title": "3D-Printed Neighborhood Provides Affordable Housing",
+        "description": "The world largest 3D-printed neighborhood housing 5,000 families has been completed in Austin.",
+        "content": "<p>Each of 1,200 homes was printed in 48 hours at 60% lower cost. Homes priced at $150,000 to $250,000.</p>",
+        "category": "Business",
+        "popularity": 475,
+        "date": "2026-03-08"
+    },
+    {
+        "id": 64,
+        "title": "Electric Aviation Startup Begins Commercial Flights",
+        "description": "Heart Aerospace has launched the first commercial electric airline on short-haul routes.",
+        "content": "<p>The ES-30 aircraft seats 30 with 200-mile range. Operating costs are 50% lower with zero emissions and 70% less noise.</p>",
+        "category": "Business",
+        "popularity": 597,
+        "date": "2026-03-09"
+    },
+    {
+        "id": 65,
+        "title": "Universal Basic Income Pilot Shows Promising Results",
+        "description": "A five-year UBI pilot in Finland shows improved well-being and entrepreneurship.",
+        "content": "<p>Recipients reported 25% higher life satisfaction and were 12% more likely to start businesses. Employment rates unchanged.</p>",
+        "category": "Business",
+        "popularity": 664,
+        "date": "2026-03-10"
+    },
+    {
+        "id": 66,
+        "title": "Global Trade Agreement Eliminates All Tariffs",
+        "description": "75 nations have signed an agreement eliminating all tariffs on goods and services.",
+        "content": "<p>The GFTA covers 80% of world GDP and is projected to boost global GDP by $4 trillion annually within five years.</p>",
+        "category": "Business",
+        "popularity": 868,
+        "date": "2026-03-11"
+    },
+    {
+        "id": 67,
+        "title": "Billionaire Pledges Entire Fortune to Climate Solutions",
+        "description": "A tech billionaire has pledged their entire $150 billion fortune to climate change solutions.",
+        "content": "<p>The donation will fund carbon capture research, renewable energy deployment, reforestation, and climate adaptation infrastructure.</p>",
+        "category": "Business",
+        "popularity": 38,
+        "date": "2026-03-12"
+    },
+    {
+        "id": 68,
+        "title": "Plant-Based Meat Now Cheaper Than Animal Meat",
+        "description": "Plant-based meat has reached price parity with conventional meat and is now cheaper in some markets.",
+        "content": "<p>Plant-based ground beef costs $2.49 per pound versus $3.99 for conventional. Major fast-food chains report 40% choosing plant-based options.</p>",
+        "category": "Business",
+        "popularity": 282,
+        "date": "2026-03-13"
+    },
+    {
+        "id": 69,
+        "title": "AI Assistants Replace 30% of Office Jobs",
+        "description": "Advanced AI personal assistants have replaced 30% of administrative and clerical positions.",
+        "content": "<p>Companies report 40% productivity gains from remaining employees. Displaced workers are being retrained for AI management and creative roles.</p>",
+        "category": "Business",
+        "popularity": 957,
+        "date": "2026-03-14"
+    },
+    {
+        "id": 70,
+        "title": "Universal Healthcare Achieved in Southeast Asia",
+        "description": "ASEAN nations have achieved universal healthcare coverage for all 700 million citizens.",
+        "content": "<p>The program covers primary care, hospitalization, and mental health services. Early results show 25% reduction in preventable hospitalizations.</p>",
+        "category": "Health",
+        "popularity": 509,
+        "date": "2026-03-15"
+    },
+    {
+        "id": 71,
+        "title": "mRNA Vaccine Technology Used to Cure Cancer",
+        "description": "A personalized mRNA vaccine achieved 90% remission in advanced melanoma patients.",
+        "content": "<p>The vaccine is customized to each patient tumor mutations. Most patients remain cancer-free after two years with mild side effects.</p>",
+        "category": "Health",
+        "popularity": 8,
+        "date": "2026-03-16"
+    },
+    {
+        "id": 72,
+        "title": "WHO Declares Mental Health a Global Health Emergency",
+        "description": "The WHO has declared mental health a global health emergency citing rising depression rates.",
+        "content": "<p>1 in 4 people will experience a mental health condition. Youth anxiety rates increased 50% since 2020. WHO calls for 10% of health budgets for mental health.</p>",
+        "category": "Health",
+        "popularity": 519,
+        "date": "2026-03-17"
+    },
+    {
+        "id": 73,
+        "title": "Gene Therapy Restores Hearing in Children",
+        "description": "A gene therapy has restored hearing in children born with congenital deafness.",
+        "content": "<p>Eleven children gained sufficient hearing to understand speech without assistance with benefits maintained for over three years.</p>",
+        "category": "Health",
+        "popularity": 232,
+        "date": "2026-03-18"
+    },
+    {
+        "id": 74,
+        "title": "New Antibiotic Discovered Using AI",
+        "description": "AI has identified a novel antibiotic effective against all WHO-listed drug-resistant pathogens.",
+        "content": "<p>Halicin-2 disrupts bacterial cell membranes making resistance unlikely. Human trials expected within 18 months.</p>",
+        "category": "Health",
+        "popularity": 470,
+        "date": "2026-03-19"
+    },
+    {
+        "id": 75,
+        "title": "Alzheimer Disease Reversed in Clinical Trial",
+        "description": "A combination therapy has reversed cognitive decline in early-stage Alzheimer patients.",
+        "content": "<p>Patients showed 4-point improvement on MMSE assessment after 18 months. Some returned to normal cognitive function.</p>",
+        "category": "Health",
+        "popularity": 152,
+        "date": "2026-03-20"
+    },
+    {
+        "id": 76,
+        "title": "First Successful Uterus Transplant from Deceased Donor",
+        "description": "A woman has given birth following the first successful uterus transplant from a deceased donor.",
+        "content": "<p>The success expands the donor pool as living donor uterine transplantation requires major surgery from healthy women.</p>",
+        "category": "Health",
+        "popularity": 805,
+        "date": "2026-03-21"
+    },
+    {
+        "id": 77,
+        "title": "Microbiome Therapy Approved for IBD",
+        "description": "The FDA has approved the first microbiome-based therapy for inflammatory bowel disease.",
+        "content": "<p>SymbioCure uses engineered Lactobacillus bacteria. Clinical trials showed 75% remission rate in ulcerative colitis patients.</p>",
+        "category": "Health",
+        "popularity": 176,
+        "date": "2026-03-22"
+    },
+    {
+        "id": 78,
+        "title": "World First 3D-Printed Human Heart Transplanted",
+        "description": "A patient has received the first fully 3D-printed human heart from their own stem cells.",
+        "content": "<p>The heart was printed over 28 days using the patient induced pluripotent stem cells eliminating rejection risk. No immunosuppression needed.</p>",
+        "category": "Health",
+        "popularity": 501,
+        "date": "2026-03-23"
+    },
+    {
+        "id": 79,
+        "title": "Exercise Pill Developed to Mimic Benefits of Activity",
+        "description": "Scientists have developed a drug that mimics the metabolic benefits of exercise.",
+        "content": "<p>EXM-1 improves VO2 max, muscle mass, and metabolic markers comparable to moderate exercise three times per week.</p>",
+        "category": "Health",
+        "popularity": 560,
+        "date": "2026-03-24"
+    },
+    {
+        "id": 80,
+        "title": "Telemedicine Now Majority of Doctor Visits",
+        "description": "Telemedicine accounts for 55% of all physician consultations in developed nations.",
+        "content": "<p>Remote monitoring devices provide real-time patient data. Patient satisfaction scores now equal or exceed in-person visits.</p>",
+        "category": "Health",
+        "popularity": 711,
+        "date": "2026-03-25"
+    },
+    {
+        "id": 81,
+        "title": "Parkinson Disease Reversed by Stem Cell Therapy",
+        "description": "A stem cell therapy has reversed Parkinson symptoms in clinical trial participants.",
+        "content": "<p>Transplanted dopamine neurons integrate into existing brain circuits. Participants experienced 70% reduction in motor symptoms.</p>",
+        "category": "Health",
+        "popularity": 449,
+        "date": "2026-03-26"
+    },
+    {
+        "id": 82,
+        "title": "Streaming Wars End with Industry Consolidation",
+        "description": "The streaming industry has consolidated from 45 platforms to 5 major services.",
+        "content": "<p>The average household now spends $45 per month on streaming down from $87 at the peak. Ad-supported tiers have become the default.</p>",
+        "category": "Entertainment",
+        "popularity": 951,
+        "date": "2026-03-27"
+    },
+    {
+        "id": 83,
+        "title": "AI-Generated Film Wins Academy Award for Best Picture",
+        "description": "A film created entirely by AI has won the Oscar for Best Picture.",
+        "content": "<p>The film Synthetic Dreams was created without human writers or directors. The Academy will review eligibility rules for AI-generated content.</p>",
+        "category": "Entertainment",
+        "popularity": 416,
+        "date": "2026-03-28"
+    },
+    {
+        "id": 84,
+        "title": "VR Concert Attracts 50 Million Viewers",
+        "description": "A virtual reality concert attracted 50 million concurrent viewers setting a new record.",
+        "content": "<p>Attendees interacted through custom avatars. Virtual merchandise generated $200 million in revenue during the event.</p>",
+        "category": "Entertainment",
+        "popularity": 161,
+        "date": "2026-04-01"
+    },
+    {
+        "id": 85,
+        "title": "Classic Film Studio Archives Released as NFTs",
+        "description": "Major studios have released behind-the-scenes content as NFTs generating billions.",
+        "content": "<p>The Warner Bros Vault collection generated $3 billion in sales featuring rare footage from the 1920s through 2000s.</p>",
+        "category": "Entertainment",
+        "popularity": 464,
+        "date": "2026-04-02"
+    },
+    {
+        "id": 86,
+        "title": "Holographic Concerts Become Permanent Vegas Attractions",
+        "description": "Las Vegas has opened the first permanent holographic concert venue featuring deceased legends.",
+        "content": "<p>Performances by Elvis Presley Freddie Mercury and others use AI reconstruction. Shows have sold out at $250 per ticket.</p>",
+        "category": "Entertainment",
+        "popularity": 936,
+        "date": "2026-04-03"
+    },
+    {
+        "id": 87,
+        "title": "Interactive Movie Format Gains Mainstream Popularity",
+        "description": "Choose-your-own-adventure movies have become a major format grossing over $500 million.",
+        "content": "<p>Audiences vote via smartphone apps in theaters. 65% of viewers aged 18-34 prefer interactive films to traditional narratives.</p>",
+        "category": "Entertainment",
+        "popularity": 700,
+        "date": "2026-04-04"
+    },
+    {
+        "id": 88,
+        "title": "Subscription-Free Ad-Supported TV Makes a Comeback",
+        "description": "FAST platforms have attracted 200 million monthly active users worldwide.",
+        "content": "<p>Free ad-supported television is driven by subscription fatigue. Revenue per user is comparable to ad-supported streaming tiers.</p>",
+        "category": "Entertainment",
+        "popularity": 114,
+        "date": "2026-04-05"
+    },
+    {
+        "id": 89,
+        "title": "Board Game Industry Surpasses Video Games in Growth",
+        "description": "The board game market has grown 25% year-over-year reaching $50 billion.",
+        "content": "<p>Hybrid board games with digital components have been particularly successful. Major video game publishers are entering the market.</p>",
+        "category": "Entertainment",
+        "popularity": 461,
+        "date": "2026-04-06"
+    },
+    {
+        "id": 90,
+        "title": "Music Industry Revenue Reaches Record $100 Billion",
+        "description": "Global music revenue reached $100 billion for the first time since 1999.",
+        "content": "<p>Streaming accounts for 65% of revenue. Emerging markets including India Brazil and Nigeria are significant growth drivers.</p>",
+        "category": "Entertainment",
+        "popularity": 821,
+        "date": "2026-04-07"
+    },
+    {
+        "id": 91,
+        "title": "Esports Stadium Opens with 50,000-Seat Capacity",
+        "description": "The world largest esports venue has opened in Seoul South Korea.",
+        "content": "<p>The Nexus Arena cost $1.2 billion and features a 50,000-seat main arena. Seoul has become the global capital of esports.</p>",
+        "category": "Entertainment",
+        "popularity": 610,
+        "date": "2026-04-08"
+    },
+    {
+        "id": 92,
+        "title": "Global Climate Summit Produces Binding Emissions Targets",
+        "description": "195 nations agreed to binding emissions targets with enforcement mechanisms.",
+        "content": "<p>The agreement requires 50% reduction by 2035 and net-zero by 2050. Developed nations committed $500 billion annually in climate finance.</p>",
+        "category": "Politics",
+        "popularity": 323,
+        "date": "2026-04-09"
+    },
+    {
+        "id": 93,
+        "title": "Electoral Reform Implemented in Major Democracy",
+        "description": "Ranked-choice voting has been implemented nationwide for all federal elections.",
+        "content": "<p>The reform eliminates primaries and allows voters to rank candidates. Analysis shows higher voter satisfaction and more civil campaigns.</p>",
+        "category": "Politics",
+        "popularity": 957,
+        "date": "2026-04-10"
+    },
+    {
+        "id": 94,
+        "title": "AI System Assists in Legislative Drafting",
+        "description": "A national parliament has deployed AI to draft and analyze legislation.",
+        "content": "<p>The system reviews bills for constitutional compliance within hours. 80% of AI-drafted bills passed compared to historical 40%.</p>",
+        "category": "Politics",
+        "popularity": 123,
+        "date": "2026-04-11"
+    },
+    {
+        "id": 95,
+        "title": "Nuclear Disarmament Treaty Ratified by Nuclear Powers",
+        "description": "All nine nuclear-armed states ratified a treaty eliminating nuclear weapons by 2050.",
+        "content": "<p>The Global Zero Treaty requires 50% reduction by 2030 with full elimination under international supervision by 2050.</p>",
+        "category": "Politics",
+        "popularity": 331,
+        "date": "2026-04-12"
+    },
+    {
+        "id": 96,
+        "title": "Youth Climate Activists Win Nobel Peace Prize",
+        "description": "The global youth climate movement has been awarded the Nobel Peace Prize.",
+        "content": "<p>The movement secured climate action commitments from 150 countries and influenced corporate sustainability practices worldwide.</p>",
+        "category": "Politics",
+        "popularity": 961,
+        "date": "2026-04-13"
+    },
+    {
+        "id": 97,
+        "title": "Direct Democracy Platform Launched for Local Governance",
+        "description": "Zurich has implemented blockchain-based direct democracy for all municipal decisions.",
+        "content": "<p>Voter participation averaged 45% compared to 25% for traditional elections. The system reduced special interest influence.</p>",
+        "category": "Politics",
+        "popularity": 826,
+        "date": "2026-04-14"
+    },
+    {
+        "id": 98,
+        "title": "Refugee Integration Program Achieves 90% Employment",
+        "description": "A Canadian program achieved 90% employment among refugees within two years.",
+        "content": "<p>The program costs $25,000 per refugee but generates $75,000 in tax revenue over five years. Refugees earn average $55,000 after two years.</p>",
+        "category": "Politics",
+        "popularity": 572,
+        "date": "2026-04-15"
+    },
+    {
+        "id": 99,
+        "title": "Term Limits Introduced for Supreme Court Justices",
+        "description": "18-year term limits for Supreme Court justices have been signed into law.",
+        "content": "<article><h1>Today’s News Snapshot</h1><p><strong>World headlines</strong> today include reports of possible gunfire near the White House, a deadly coal mine explosion in China, and fresh developments in Iran talks, while markets showed mixed moves across major indexes and commodities. <em>BBC</em> also highlighted evacuations in Orange County after a chemical tank leak, and other outlets reported tensions in Lebanon, Ukraine, and the South Pacific.</p><h2>Markets and money</h2><p>Market data from Daily Sabah showed the BIST 100, Dow Jones, S&amp;P 500, DAX, and CAC 40 moving higher, while gold and silver fell and Brent crude rose. Currency figures in the same snapshot showed USD/TRY higher and EUR/TRY slightly lower.</p><h2>Key themes</h2><p>Security, energy, and diplomacy dominate the day’s coverage, with stories touching on conflict, trade, and government policy across several regions. In Turkey-focused coverage, Daily Sabah also listed constitution plans, drone exports, and NATO-related defense news.</p><footer><small>Published May 24, 2026</small></footer></article> [dailysabah](https://www.dailysabah.com)",
+        "category": "Politics",
+        "popularity": 877,
+        "date": "2026-04-16"
+    },
+    {
+        "id": 100,
+        "topicId": 1,
+        "title": "Ocean Territory Established as New Country",
+        "description": "The Ocean Federation of artificial islands has been recognized as a UN member state.",
+        "content": "<article><h1>Today’s News Snapshot</h1><p><strong>World headlines</strong> today include reports of possible gunfire near the White House, a deadly coal mine explosion in China, and fresh developments in Iran talks, while markets showed mixed moves across major indexes and commodities. <em>BBC</em> also highlighted evacuations in Orange County after a chemical tank leak, and other outlets reported tensions in Lebanon, Ukraine, and the South Pacific.</p><h2>Markets and money</h2><p>Market data from Daily Sabah showed the BIST 100, Dow Jones, S&amp;P 500, DAX, and CAC 40 moving higher, while gold and silver fell and Brent crude rose. Currency figures in the same snapshot showed USD/TRY higher and EUR/TRY slightly lower.</p><h2>Key themes</h2><p>Security, energy, and diplomacy dominate the day’s coverage, with stories touching on conflict, trade, and government policy across several regions. In Turkey-focused coverage, Daily Sabah also listed constitution plans, drone exports, and NATO-related defense news.</p><footer><small>Published May 24, 2026</small></footer></article> [dailysabah](https://www.dailysabah.com)<p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p> <h1>Title about ocean</h1> <p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p><p>The floating nation has 50,000 residents and operates entirely on renewable energy with zero waste. The 196th UN member state.</p>",
+        "category": "Politics",
+        "popularity": 309,
+        "date": "2026-04-17"
+    }
+]

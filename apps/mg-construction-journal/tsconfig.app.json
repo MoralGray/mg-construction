@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+        "target": "ES2022",
+        "useDefineForClassFields": true,
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "types": ["vite/client"],
+        "skipLibCheck": true,
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "verbatimModuleSyntax": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "erasableSyntaxOnly": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true,
+        "paths": {
+            "@/*": ["./src/*"],
+            "@mg-nx-forge/mg-api-axios-1": ["../../packages/mg-api-axios-1/src/index.ts"],
+            "@mg-nx-forge/mg-infinite-view-tanstack": ["../../packages/mg-infinite-view-tanstack/src/index.ts"],
+            "@mg-nx-forge/mg-ui-shadcn-4": ["../../packages/mg-ui-shadcn-4/src/index.ts"]
+        }
+    },
+    "include": ["src"]
+}

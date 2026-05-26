@@ -1,0 +1,79 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
+    "files": {
+        "includes": [
+            "**",
+            "!!**/dist",
+            "!!**/tsconfig*.json",
+            "!!**/additional-files",
+            "!!**/.opencode",
+            "!!**/.github",
+            "!!**/.agents",
+            "!!**/.codex",
+            "!!**/assets"
+        ],
+        "ignoreUnknown": false
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "correctness": {
+                "noUnusedVariables": "warn",
+                "noUnusedImports": "error",
+                "useExhaustiveDependencies": "off"
+            },
+            "style": {
+                "noUselessElse": "error",
+                "useBlockStatements": "error",
+                "noNonNullAssertion": "off",
+                "noParameterAssign": "off",
+                "useConst": "off"
+            },
+            "suspicious": {
+                "noSelfCompare": "off",
+                "noExplicitAny": "off",
+                "noArrayIndexKey": "off",
+                "noImplicitAnyLet": "off"
+            },
+            "a11y": {
+                "useButtonType": "off",
+                "useValidAnchor": "off",
+                "noRedundantAlt": "off",
+                "noSvgWithoutTitle": "off",
+                "useKeyWithClickEvents": "off",
+                "useFocusableInteractive": "off",
+                "useSemanticElements": "off"
+            },
+            "complexity": {
+                "noStaticOnlyClass": "off",
+                "noImportantStyles": "off",
+                "noForEach": "off"
+            },
+            "security": {
+                "noDangerouslySetInnerHtml": "off"
+            }
+        }
+    },
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 120
+    },
+    "css": {
+        "parser": {
+            "tailwindDirectives": true
+        }
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single",
+            "semicolons": "always",
+            "trailingCommas": "es5"
+        },
+        "parser": {
+            "unsafeParameterDecoratorsEnabled": true
+        }
+    }
+}

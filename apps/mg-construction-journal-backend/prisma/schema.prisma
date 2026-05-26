@@ -1,0 +1,90 @@
+generator client {
+    provider = "prisma-client"
+    output   = "../src/generated/prisma"
+}
+
+datasource db {
+    provider = "sqlite"
+}
+
+model User {
+    id           String   @id @default(uuid())
+    email        String   @unique
+    name         String?
+    passwordHash String
+    role         String   @default("user")
+    plan         String?
+    openAiKey    String?
+    websearchKey String?
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+}
+
+model Source {
+    id         String  @id
+    slug       String  @unique
+    name       String
+    feedUrl    String
+    logoUrl    String?
+    bias       String  @default("neutral")
+    popularity Int     @default(1)
+    isDefault  Boolean @default(true)
+
+    articles    Article[]
+}
+
+model Article {
+    id          Int      @id @default(autoincrement())
+    title       String
+    description String
+    content     String
+    url         String?
+    category    String
+    popularity  Int      @default(0)
+    date        String
+    topicId     Int?
+    fetchedAt   DateTime @default(now())
+
+    sourceId String
+    source   Source @relation(fields: [sourceId], references: [id])
+}
+
+model Road {
+    id          Int      @id @default(autoincrement())
+    name        String
+    slug        String   @unique
+    roadType    String   @default("highway")
+    description String?
+    createdAt   DateTime @default(now())
+
+    workLogEntries WorkLogEntry[]
+}
+
+model WorkType {
+    id    Int    @id @default(autoincrement())
+    slug  String @unique
+    name  String
+    unit  String
+
+    workLogEntries WorkLogEntry[]
+}
+
+model WorkLogEntry {
+    id           Int      @id @default(autoincrement())
+    date         DateTime
+    workTypeId   Int
+    roadId       Int
+    volume       Float
+    executorName String
+    description      String?
+    topicId          Int?
+    workDone         Boolean  @default(false)
+    workInProgress   Boolean  @default(false)
+    workStopped      Boolean  @default(false)
+    pinned           Boolean  @default(false)
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+
+    workType WorkType @relation(fields: [workTypeId], references: [id])
+    road     Road     @relation(fields: [roadId], references: [id])
+}

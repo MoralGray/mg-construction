@@ -1,0 +1,33 @@
+{
+    "name": "mg-ui-shadcn-4",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "packages/mg-ui-shadcn-4/src",
+    "projectType": "library",
+    "tags": [],
+    "targets": {
+        "build": {
+            "executor": "@nx/js:tsc",
+            "outputs": ["{options.outputPath}"],
+            "options": {
+                "outputPath": "dist/packages/mg-ui-shadcn-4",
+                "main": "packages/mg-ui-shadcn-4/src/index.ts",
+                "tsConfig": "packages/mg-ui-shadcn-4/tsconfig.lib.json",
+                "assets": []
+            }
+        },
+        "lint": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run lint",
+                "cwd": "packages/mg-ui-shadcn-4"
+            }
+        },
+        "typecheck": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run typecheck",
+                "cwd": "packages/mg-ui-shadcn-4"
+            }
+        }
+    }
+}

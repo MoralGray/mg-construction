@@ -1,0 +1,25 @@
+[tools]
+node = '22'
+
+[env]
+NODE_ENV="development"
+LOG_ENV="ON"
+
+MG_CONSTRUCTION_JOURNAL_PORT = "3002"
+MG_CONSTRUCTION_JOURNAL_BACKEND_PORT = "8001"
+
+[tasks]
+# Will remove all node-modules
+clean = { run = "bash scripts/clean.sh", dir = "{{cwd}}" }
+# Start all app dev servers
+dev-all = { run = """npx nx run-many --target=dev --projects=mg-construction-journal,mg-construction-journal-backend""" }
+# Seed base data (roads, work types)
+seed = { run = "npx nx run mg-construction-journal-backend:seed", dir = "{{cwd}}" }
+# Generate 1000 mock work log entries
+seed-mock = { run = "npx nx run mg-construction-journal-backend:seed-mock", dir = "{{cwd}}" }
+# Delete all work log entries (with confirmation prompt)
+seed-clear = { run = "npx nx run mg-construction-journal-backend:seed-clear", dir = "{{cwd}}" }
+# Push Prisma schema to database
+db-push = { run = "npx nx run mg-construction-journal-backend:db:push", dir = "{{cwd}}" }
+# Generate Prisma client
+db-generate = { run = "npx nx run mg-construction-journal-backend:db:generate", dir = "{{cwd}}" }

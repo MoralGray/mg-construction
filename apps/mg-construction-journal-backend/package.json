@@ -1,0 +1,48 @@
+{
+    "name": "mg-construction-journal-backend",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "prisma db push && tsx watch src/main.ts",
+        "start": "tsx src/main.ts",
+        "seed": "tsx src/seed/seed.ts",
+        "seed-mock": "tsx src/seed/mock-entries.ts",
+        "seed-clear": "tsx src/seed/clear-entries.ts",
+        "db:push": "prisma db push",
+        "db:generate": "prisma generate",
+        "typecheck": "tsc --noEmit",
+        "format": "npx biome format --write .",
+        "lint": "npx biome lint --write .",
+        "check": "npx biome check --write . && npm run typecheck"
+    },
+    "dependencies": {
+        "@nestjs/common": "11.0.16",
+        "@nestjs/core": "11.0.16",
+        "@nestjs/jwt": "^11.0.2",
+        "@nestjs/passport": "^11.0.5",
+        "@nestjs/platform-express": "11.0.16",
+        "@prisma/client": "^7.8.0",
+        "bcryptjs": "^3.0.3",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.15.1",
+        "passport": "^0.7.0",
+        "passport-jwt": "^4.0.1",
+        "reflect-metadata": "0.2.2",
+        "rxjs": "^7.8.2"
+    },
+    "devDependencies": {
+        "@prisma/adapter-better-sqlite3": "^7.8.0",
+        "@prisma/adapter-pg": "^7.8.0",
+        "@types/bcryptjs": "^2.4.6",
+        "@types/better-sqlite3": "^7.6.13",
+        "@types/node": "24.10.1",
+        "@types/passport-jwt": "^4.0.1",
+        "@types/pg": "^8.20.0",
+        "better-sqlite3": "^12.10.0",
+        "dotenv": "^16.6.1",
+        "pg": "^8.21.0",
+        "prisma": "^7.8.0",
+        "tsx": "4.19.3",
+        "typescript": "5.9.3"
+    }
+}

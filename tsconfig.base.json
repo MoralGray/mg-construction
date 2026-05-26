@@ -1,0 +1,25 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "ES2020",
+        "module": "ESNext",
+        "lib": ["ES2020", "DOM"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "paths": {
+            "@mg-nx-forge/mg-api-axios-1": ["packages/mg-api-axios-1/src/index.ts"],
+            "@mg-nx-forge/mg-infinite-view-tanstack": ["packages/mg-infinite-view-tanstack/src/index.ts"],
+            "@mg-nx-forge/mg-router-zustand-1": ["packages/mg-router-zustand-1/src/index.ts"],
+            "@mg-nx-forge/mg-table-tanstack": ["packages/mg-table-tanstack/src/index.ts"],
+            "@mg-nx-forge/mg-ui-shadcn-4": ["packages/mg-ui-shadcn-4/src/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp"]
+}

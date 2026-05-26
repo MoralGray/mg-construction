@@ -1,0 +1,34 @@
+{
+    "name": "mg-construction-journal",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "format": "npx biome format --write .",
+        "lint": "npx biome lint --write .",
+        "check": "npx biome check --write . && npm run typecheck:all",
+        "build:all": "nx run-many --target=build --all",
+        "lint:all": "nx run-many --target=lint --all",
+        "typecheck:all": "nx run-many --target=typecheck --all",
+        "test:all": "nx run-many --target=test --all"
+    },
+    "overrides": {
+        "axios": "1.16.0"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.3.11",
+        "@nx/js": "22.6.5",
+        "@nx/vite": "22.6.5",
+        "nx": "22.6.5"
+    },
+    "dependencies": {
+        "better-sqlite3": "12.10.0"
+    },
+    "engines": {
+        "node": ">=22.12 <23"
+    }
+}

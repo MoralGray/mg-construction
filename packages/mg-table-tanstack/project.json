@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "name": "mg-table-tanstack",
+    "project": {
+        "type": "library"
+    },
+    "sourceRoot": "packages/mg-table-tanstack/src",
+    "targets": {
+        "build": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run build",
+                "cwd": "packages/mg-table-tanstack"
+            }
+        },
+        "lint": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run lint",
+                "cwd": "packages/mg-table-tanstack"
+            }
+        },
+        "typecheck": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npm run typecheck",
+                "cwd": "packages/mg-table-tanstack"
+            }
+        }
+    }
+}
