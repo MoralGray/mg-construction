@@ -57,7 +57,7 @@ already exist:
 
 - **6 roads** — named after real Moscow highways
 - **10 work types** — concrete, asphalt, marking, barriers, etc.
-- **1000 work log entries** — across 2024–2025 with realistic volumes and executors
+- **100 work log entries** — across 2024–2026 with realistic volumes and executors
 
 Seed scripts: [`prisma/seed.ts`](./apps/mg-construction-journal-backend/prisma/seed.ts)
 and [`prisma/seed-data.ts`](./apps/mg-construction-journal-backend/prisma/seed-data.ts).
