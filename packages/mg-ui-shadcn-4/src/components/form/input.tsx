@@ -18,6 +18,12 @@ export function InputField({
 }: FieldProps & React.ComponentProps<typeof Input>) {
     const { control } = useFormContext();
 
+    function handleClick(e: React.MouseEvent<HTMLInputElement>) {
+        if (type === 'date') {
+            e.currentTarget.showPicker();
+        }
+    }
+
     return (
         <Controller
             name={name}
@@ -34,11 +40,13 @@ export function InputField({
                 >
                     <Input
                         {...field}
+                        id={name}
                         type={type}
                         placeholder={placeholder}
                         disabled={disabled}
                         value={field.value ?? ''}
                         onChange={(e) => field.onChange(e.target.value)}
+                        onClick={handleClick}
                         aria-invalid={!!fieldState.error || undefined}
                         {...props}
                     />

@@ -41,7 +41,7 @@ interface FormValues {
     executorName: string;
     description?: string;
     topicId?: number;
-    workStatus: string;
+    entryWorkStatus: string;
 }
 
 const WORK_STATUS_OPTIONS = [
@@ -62,7 +62,7 @@ const formSchema = z.object({
     executorName: z.string().min(1, 'Executor name is required'),
     description: z.string().optional(),
     topicId: z.coerce.number().int().optional(),
-    workStatus: z.string(),
+    entryWorkStatus: z.string(),
 });
 
 export default function WorkLogEntryFormDialog({ open, onOpenChange, onSuccess, entry }: WorkLogEntryFormDialogProps) {
@@ -118,7 +118,7 @@ export default function WorkLogEntryFormDialog({ open, onOpenChange, onSuccess, 
         executorName: entry?.executorName ?? '',
         description: entry?.description ?? '',
         topicId: entry?.topicId ?? undefined,
-        workStatus: entry?.workDone
+        entryWorkStatus: entry?.workDone
             ? 'done'
             : entry?.workInProgress
               ? 'in_progress'
@@ -138,9 +138,9 @@ export default function WorkLogEntryFormDialog({ open, onOpenChange, onSuccess, 
                     executorName: data.executorName,
                     description: data.description || undefined,
                     topicId: data.topicId ?? undefined,
-                    workDone: data.workStatus === 'done',
-                    workInProgress: data.workStatus === 'in_progress',
-                    workStopped: data.workStatus === 'stopped',
+                    workDone: data.entryWorkStatus === 'done',
+                    workInProgress: data.entryWorkStatus === 'in_progress',
+                    workStopped: data.entryWorkStatus === 'stopped',
                 };
                 if (isEdit && entry) {
                     await updateWorkLogEntry(entry.id, dto);
@@ -210,7 +210,7 @@ export default function WorkLogEntryFormDialog({ open, onOpenChange, onSuccess, 
                         />
                         <div className="space-y-2 border-t pt-4">
                             <h4 className="text-sm font-semibold">Work Status</h4>
-                            <RadioField name="workStatus" options={WORK_STATUS_OPTIONS} />
+                            <RadioField name="entryWorkStatus" options={WORK_STATUS_OPTIONS} />
                         </div>
                     </div>
 
